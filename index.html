@@ -46,6 +46,11 @@
                 font-size: 7em;
             }
 
+            .card-img-top>span>i {
+                margin: 96px 36px;
+                font-size: 4rem;
+            }
+
             .card-img-top .goto-project {
                 position: absolute;
                 top: 0;
@@ -96,17 +101,15 @@
             -->
             <section class="position-relative">
                 <img src="./images/profile.png" style="width:100%" alt="Rodrigo Fagundes - Full Stack Software Engineer">
-                <div class="position-absolute text-white text-right p-5 about-snippet align-middle">
-                    <p class="blockquote d-none d-md-block">
-                        Awesome people are forged in a multi-career environment. Awesome teams, with a steady pace and with awesome people.
+                <div class="position-absolute text-white text-right p-5 about-snippet d-inline align-middle">
+                    <p class="blockquote text-monospace d-none d-md-block">
+                        Awesome people are forged in a multi-career environment. Awesome teams, with a steady pace and awesome people.
                     </p>
-                    <div>
-                        <button type="button" class="btn btn-primary" data-toggle="collapse"
-                            data-target="#aboutMe" aria-controls="aboutMe" aria-expanded="false"
-                            aria-label="More about me">
-                            More about me
-                        </button>
-                    </div>
+                    <button type="button" class="btn btn-primary" data-toggle="collapse"
+                        data-target="#aboutMe" aria-controls="aboutMe" aria-expanded="false"
+                        aria-label="More about me">
+                        More about me
+                    </button>
                 </div>
             </section>
 
@@ -332,6 +335,89 @@
                                     <small class="">
                                         Developed a statistical approach to portfolio success assessment in the corporate segment in the state of Bahia using Data Envelopment Analysis. 
                                     </small>
+                                </div>
+                                <div class="card-footer">
+                                    <small>
+                                        <a href="bb.com.br">
+                                            <img src="images/bb.png" height="24" alt="Bank of Brazil"/>
+                                            @Bank of Brazil
+                                        </a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 d-flex">
+                            <div class="card mb-4 shadow-sm">
+                                <div class="card-img-top text-center text-white bg-secondary">
+                                    <span>
+                                        <i class="fa fa-certificate"></i>
+                                        <i class="fa fa-award"></i>
+                                        <i class="fa fa-user-tag"></i>
+                                    </span>
+                                </div>
+                                <div class="card-body p-0">
+                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" id="mycerts-tab" data-toggle="tab" href="#myCerts" role="tab" aria-controls="myCerts" aria-selected="true">
+                                                <i class="fa fa-certificate"></i>
+                                                Certificates
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="awards-tab" data-toggle="tab" href="#myAwards" role="tab" aria-controls="myAwards" aria-selected="false">
+                                                <i class="fa fa-award"></i>
+                                                Prizes
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="sideroles-tab" data-toggle="tab" href="#sideRoles" role="tab" aria-controls="sideRoles" aria-selected="false">
+                                                <i class="fa fa-user-tag"></i>
+                                                Side Roles
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content" id="myTabContent">
+                                        <div class="tab-pane fade show active" id="myCerts" role="tabpanel" aria-labelledby="mycerts-tab">
+                                            <ul class="list-group">
+                                                <li class="list-group-item">
+                                                    <h5>Management & Agile</h5>
+                                                    <small>CSP (PO & SM), CSPO, CSM, CSD, Scrum@Scale Practitioner, PMP, PMI-ACP, Lean Inception Practitioner & Management 3.0 Attendee</small>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <h5>Governance & ITSM</h5>
+                                                    <small>CGEIT, CRISC, COBIT5 Foundation, ITIL Foundation & ITIL Intermediate Capability (PPO, RCV, OSA & SOA)</small>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="tab-pane fade" id="myAwards" role="tabpanel" aria-labelledby="awards-tab">
+                                            <ul class="list-group">
+                                                <li class="list-group-item">
+                                                    <h5>Competences Management Prototype</h5>
+                                                    <small>@Conserpro 2008</small>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <h5>Prosecutors' Cabinets Substitution Management Software</h5>
+                                                    <small>@FLPO Best Management Practices 2015</small>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="tab-pane fade" id="sideRoles" role="tabpanel" aria-labelledby="sideroles-tab">
+                                            <ul class="list-group">
+                                                <li class="list-group-item">
+                                                    <h5>Data Related</h5>
+                                                    <small>Data Scientist, Analyst and Engineer</small>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <h5>Management & Agile</h5>
+                                                    <small>Product Owner, Scrum Master, Project Manager and Portfolio Manager</small>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <h5>Governance</h5>
+                                                    <small>Governance of Enterprise IT Advisor and Process Analyst</small>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="card-footer">
                                     <small>
