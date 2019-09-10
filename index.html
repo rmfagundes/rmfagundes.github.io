@@ -466,20 +466,28 @@
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="reachOutName">Name</label>
-                                <input type="text" class="form-control" id="reachOutName" aria-describedby="reachOutNameHelp" placeholder="Enter your name" required>
+                                <input type="text" name="name" class="form-control" id="reachOutName" aria-describedby="reachOutNameHelp" placeholder="Enter your name" required>
                                 <div class="invalid-feedback">Please type your name.</div>
                                 <div class="valid-feedback">Good!</div>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="reachOutEmail">Email address</label>
-                                <input type="email" class="form-control" id="reachOutEmail" aria-describedby="reachOutEmailHelp" placeholder="Enter email" required>
+                                <input type="email" name="_replyto" class="form-control" id="reachOutEmail" aria-describedby="reachOutEmailHelp" placeholder="Enter email" required>
                                 <div class="invalid-feedback">Please type your e-mail.</div>
                                 <div class="valid-feedback">Awesome!</div>
                             </div>
                         </div>
                         <div class="form-group">
+                            <label for="reachOutSubject">Subject</label>
+                            <input type="email" name="_subject" class="form-control" id="reachOutSubject" aria-describedby="reachOutSubjectHelp" placeholder="Enter a subject" required>
+                            <div class="invalid-feedback">Please type a subject.</div>
+                            <div class="valid-feedback">Got it!</div>
+                        </div>
+                        <input type="hidden" name="_subject" value="New submission!" />
+                        
+                        <div class="form-group">
                             <label for="reachOutTextarea">Your message</label>
-                            <textarea class="form-control" id="reachOutTextarea" rows="5" placeholder="Enter your message here" required></textarea>
+                            <textarea name="message" class="form-control" id="reachOutTextarea" rows="5" placeholder="Enter your message here" required></textarea>
                             <div class="invalid-feedback">Please type a message.</div>
                             <div class="valid-feedback">Perfect!</div>
                         </div>
